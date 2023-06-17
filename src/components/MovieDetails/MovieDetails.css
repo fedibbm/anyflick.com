@@ -1,0 +1,66 @@
+.MovieDetails > .container{
+    max-width:1700px;
+    background:#1c1e1c85;
+    border-radius:10px;
+    box-shadow: 3px -1px 27px 0px rgba(0,0,0,0.16);
+    margin: 0 auto;
+}
+.movie-details .movie-poster{
+    max-width:400px;
+    margin:80px;
+}
+
+
+.MovieDetails .container .back-button-container{
+    max-width:1600px;
+    margin:0 auto;
+    height:50px;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-bottom:1px solid rgba(255, 255, 255, 0.348);
+}
+
+.back-button{
+    color:white;
+    margin-left:20px;
+}
+
+.movie-details .movie-cover{
+    height:400px;
+    width:300px;
+}
+
+.movie-details{
+    color:white;
+    display:flex;
+    flex-direction:row;
+    align-items: stretch;
+}
+.movie-details .text-details{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left:50px;
+    width:1400px;
+}
+
+.movie-details .text-details .details{
+    display:flex;
+    flex-direction:row;
+    width:900px;
+    justify-content: space-between;
+
+}
+
+.movie-details .text-details .details div{
+    overflow:wrap;
+}
+.movie-details .text-details .details div p span{
+    font-weight:bold;
+}
+
+.description{
+    max-width:900px;
+}

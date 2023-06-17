@@ -1,0 +1,14 @@
+.PageTitle {
+    height:100px;
+    margin-bottom:30px;
+}
+.PageTitle .container{
+    max-width:1500px;
+    display:flex;
+    align-items: center;
+    height:100%;
+    margin: 0 auto;
+}
+.PageTitle h1{
+    color:white;
+}

@@ -1,0 +1,31 @@
+.MovieCard {
+    overflow: hidden;
+    height: 460px;
+    background:rgba(255, 255, 255, 0.105);
+    width:300px !important;
+    border-radius: 10px;
+    color:white;
+    display: flex;
+    flex-direction:column;
+    box-shadow: 3px -1px 27px 0px rgba(0,0,0,0.16);
+}
+.MovieCard:hover{
+    transform:scale(105%);
+    cursor: pointer;
+    transition:0.2s ease-in-out;
+}
+.movie-card-details{
+    display: flex;
+    flex-direction:column;
+    flex:1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie-numbers{
+    display:flex;
+    flex-direction:row;
+    width:60%;
+    justify-content: space-between;
+    margin:0 auto;
+}
